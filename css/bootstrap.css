@@ -179,10 +179,13 @@ optgroup {
 table {
   border-spacing: 0;
   border-collapse: collapse;
+  width:100%;
 }
 td,
 th {
-  padding: 0;
+  padding: 5px;
+  height:50px;
+  font-size:20px
 }
 @media print {
   * {
@@ -1405,7 +1408,8 @@ table {
   background-color: transparent;
 }
 th {
-  text-align: left;
+  text-align: middle;
+
 }
 .table {
   width: 100%;
@@ -1417,7 +1421,7 @@ th {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 8px;
+  padding: 10px;
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
