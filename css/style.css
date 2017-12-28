@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .search-in{
 	float:right;
-	width: 38%;
+	width: 45%;
 }
 .header-grid ul li {
 	display: inline-block;
@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6,p{
 	vertical-align: middle;
 }
 .header-top {
-	padding: 2em 0;
+	padding: 2em 4em;
 }
 /*----*/
 /* PREFIXED CSS */
